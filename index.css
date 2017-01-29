@@ -1,7 +1,6 @@
 head{
-    font-family: slanted ITALIC shift Black;
+    font-family: slanted ITALIC shift;
     text-align:left;
-    text-decoration: shadow;
     font-size: 300%;
     
 }
@@ -10,7 +9,7 @@ head{
 body{
     margin: 0;
     padding: 0;
-    font-family: slanted ITALIC shift Black;
+    font-family: slanted ITALIC shift;
     text-decoration: shadow-bold;
     background: #c9fff2;
 
