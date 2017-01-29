@@ -1,6 +1,8 @@
 head{
     font-family: slanted ITALIC shift;
     text-align:left;
+    font-size: 200%;
+    
 }
     
 
@@ -26,4 +28,5 @@ nav ul{
 nav ul li{
    padding: 10px;
    font-family: pixeled;
+   background: #c9fff2;
 }
