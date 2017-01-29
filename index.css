@@ -1,8 +1,8 @@
 head{
-    font-family: slanted ITALIC shift;
+    font-family: arial;
     text-align:left;
     padding: 
-    font-size: 300%;
+    font-size: 300px%;
     
 }
     
@@ -18,7 +18,7 @@ header{
   padding: 40px;
   color: white;
   text-align: left;
-  font-family: slanted ITALIC shift;
+  font-family: arial;
   size: 200px;
 }
 nav ul{
