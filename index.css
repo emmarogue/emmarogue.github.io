@@ -18,6 +18,8 @@ header{
   padding: 40px;
   color: white;
   text-align: left;
+  font-family: slanted ITALIC shift;
+  size: 200px;
 }
 nav ul{
     background-color: #c9fff2;
