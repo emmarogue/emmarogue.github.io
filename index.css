@@ -1,6 +1,7 @@
 head{
     font-family: slanted ITALIC shift;
     text-align:left;
+    padding: 
     font-size: 300%;
     
 }
@@ -8,14 +9,13 @@ head{
 
 body{
     margin: 0;
-    padding: 0;
+    padding: 10px;
     font-family: slanted ITALIC shift;
-    text-decoration: shadow-bold;
     background: #c9fff2;
 
 }
 header{
-  padding: 10px 0;
+  padding: 40px;
   color: white;
   text-align: left;
 }
