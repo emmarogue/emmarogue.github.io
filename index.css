@@ -32,10 +32,10 @@ nav ul{
     text-align: left;
     margin: 0;
     font-family: arial;
+    list-style-type: none;
 }
 nav ul li{
    padding: 0px;
    font-family: arial;
    background: #c9fff2;
-   list-style-type: none;
 }
