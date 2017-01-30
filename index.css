@@ -34,7 +34,8 @@ nav ul{
     font-family: arial;
 }
 nav ul li{
-   padding: 40px;
+   padding: 0px;
    font-family: arial;
    background: #c9fff2;
+   list-style-type: none;
 }
