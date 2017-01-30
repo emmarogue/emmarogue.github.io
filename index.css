@@ -23,12 +23,12 @@ header{
 }
 nav ul{
     background-color: #c9fff2;
-    padding: 0;
+    padding: 10px;
     text-align: left;
     margin: 0;
 }
 nav ul li{
    padding: 10px;
-   font-family: foundry gridnik;
+   font-family: arial;
    background: #c9fff2;
 }
