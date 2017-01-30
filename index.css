@@ -3,24 +3,29 @@ head{
     text-align:left;
     padding: 
     font-size: 300px;
-    
 }
     
-
 body{
     margin: 0;
     padding: 10px;
-    font-family: slanted ITALIC shift;
+    font-family: arial;
     background: #c9fff2;
-
 }
+
 header{
   padding: 40px;
   color: white;
+  background: #c9fff2
   text-align: left;
   font-family: arial;
   size: 300px;
 }
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 nav ul{
     background-color: #c9fff2;
     padding: 40px;
