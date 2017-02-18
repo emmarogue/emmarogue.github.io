@@ -12,6 +12,13 @@ body{
     background: #c9fff2;
 }
 
+photos
+{
+    width: 95px;
+    height:auto;
+    
+}
+
 header{
   padding: 40px;
   color: white;
@@ -39,3 +46,4 @@ nav ul li{
    font-family: arial;
    background: #c9fff2;
 }
+
