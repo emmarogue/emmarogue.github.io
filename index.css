@@ -2,23 +2,14 @@
 html,
 body {
   margin:0;
+  cursor: url("images/middle.cur"), auto;
 }
 a,
 a:hover,
 a:visited {
   text-decoration: none !important;
-}
-
-.sidebar{
- display: inline-block;
-    float: left;
-    position: fixed;
-    text-align: right;
-    padding-top: 80px;
-    width: 400px;
 
 }
-
 .head
 {
 padding: 20px;
@@ -44,45 +35,81 @@ padding: 20px;
 }
 
 .header{
-padding: 20px;
-  color: black;
-  text-align: right;
-  font-family: arial;
-  font-size: 50px;
-  text-decoration: none;
+float: right;
+margin: 5rem 10rem 0rem 5rem;
+color: black;
+text-align: right;
+font-family: arial;
+font-size: 2rem;
+text-decoration: none;
+display: inline-block;
+/*position: fixed;*/
+}
+
+.hpadding
+{
+margin: 2rem 0rem 0rem 0rem;
+}
+
+
+.sidebar{
     display: inline-block;
     float: left;
     position: fixed;
+    text-align: left;
+    padding: 4rem 0rem 0rem 5rem;
+    width: 15rem;
 }
 
-.sidebar-link {
-  padding: 20px; 
-    font-family: arial;
-  font-size: 50px;
-  text-decoration: none;
-    display: inline-block; 
-    color: #222;
 
+.sidebar-link {
+  padding: 0.5rem; 
+  border-right: 1rem white solid;
+  font-family: arial;
+  font-style:italic;
+  font-size: 1.5rem;
+  text-decoration: none;
+  display: inline-block; 
+  color: #222;
+
+
+}
+
+.sidebar-link:hover{
+  color:blue;
+  opacity: 0.25;
+  font-size: 1.75rem;
+}
+
+.selected
+{
+color:#A1C0FF;
 }
 
 .photo
-
 {
-  width: 100%;
-  height: 60vh;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  max-width: 32rem;
-  margin: 30px auto;
+width: 100%;
+height: 60vh;
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+max-width: 32rem;
+margin: 30px auto;
+}
 
+.photobar
+{
+    display: inline-block;
+    float: left;
+    position: fixed;
+    text-align: left;
+    margin: 20rem 0rem 0rem 5rem;
+    width: 15rem;
 
 }
 
 .homephotos
-
 {
-
 width: 200px;
 height:auto;
 margin-right:10%;
@@ -90,13 +117,11 @@ margin-left:10%;
 }
     
 .body{
-    margin: 0;
-    padding: 10px;
-    font-family: arial;
-    background: #c9fff2;
-}
-
-
+margin: 0;
+padding: 10px;
+font-family: arial;
+background: #c9fff2;
+  }
 
 .a{
     text-decoration: none;
@@ -126,6 +151,8 @@ margin-left:10%;
 }
 
 .gif{
+  width: 50rem;
+  height: auto;
   padding-top: 80px;
   margin-left: 400px;
 }
@@ -137,9 +164,9 @@ margin-left:10%;
   font-family: arial;
   font-size: 50px;
   text-decoration: none;
-    display: inline-block;
-    float: left;
-    position: fixed;
+  display: inline-block;
+  float: left;
+  position: fixed;
 }
 
 /*nav ul{
