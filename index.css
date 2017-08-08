@@ -3,6 +3,7 @@ html,
 body {
   margin:0;
   cursor: url("images/middle.cur"), auto;
+  
 }
 a,
 a:hover,
@@ -36,19 +37,26 @@ padding: 20px;
 
 .header{
 float: right;
+padding: 20px;
+object-position: right;
 margin: 5rem 10rem 0rem 5rem;
 color: black;
 text-align: right;
 font-family: arial;
 font-size: 2rem;
 text-decoration: none;
-display: inline-block;
+/*display: inline-block;
+position: fixed;
 /*position: fixed;*/
 }
 
 .hpadding
 {
 margin: 2rem 0rem 0rem 0rem;
+padding: 0.5rem;
+/*display: inline-block;*/
+margin-left: 500px;
+position: fixed;
 }
 
 
@@ -64,7 +72,7 @@ margin: 2rem 0rem 0rem 0rem;
 
 .sidebar-link {
   padding: 0.5rem; 
-  border-right: 1rem white solid;
+  /*border-right: 1rem white solid;*/
   font-family: arial;
   font-style:italic;
   font-size: 1.5rem;
@@ -89,11 +97,11 @@ color:#A1C0FF;
 .photo
 {
 width: 100%;
-height: 60vh;
+height: 70vh;
 background-size: contain;
 background-position: center;
 background-repeat: no-repeat;
-max-width: 32rem;
+max-width: 42rem;
 margin: 30px auto;
 }
 
@@ -146,7 +154,7 @@ background: #c9fff2;
   width: 50%;
 }
 .padding{
-  padding-top: 80px;
+  padding-top: 200px;
   margin-left: 400px;
 }
 
