@@ -37,7 +37,7 @@ padding: 20px;
 
 .header{
 float: right;
-padding: 20px;
+padding: 30px;
 object-position: right;
 margin: 5rem 10rem 0rem 5rem;
 color: black;
@@ -55,10 +55,24 @@ position: fixed;
 margin: 2rem 0rem 0rem 0rem;
 padding: 0.5rem;
 /*display: inline-block;*/
-margin-left: 500px;
+margin-left: 00px;
 position: fixed;
 }
 
+.subheader-padding
+{
+float: right;
+object-position: right;
+text-align: right;
+margin: 5rem 10rem 0rem 5rem;
+font-size: 2rem;
+padding: 0rem;
+text-align: right;
+/*padding: 0.5rem;
+/*display: inline-block;*/
+/*margin-right: 100px;
+/*position: fixed;*/
+}
 
 .sidebar{
     display: inline-block;
