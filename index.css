@@ -39,12 +39,20 @@ padding: 20px;
 float: right;
 padding: 30px;
 object-position: right;
-margin: 5rem 10rem 0rem 5rem;
+/*margin: 5rem 10rem 0rem 5rem;*/
 color: black;
 text-align: right;
 font-family: arial;
 font-size: 2rem;
 text-decoration: none;
+  padding-top: 80px;
+  padding-bottom: 200px;
+  margin-left: 600px;
+  background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+margin: -10px auto;
+margin-bottom: 50px;
 /*display: inline-block;
 position: fixed;
 /*position: fixed;*/
@@ -53,7 +61,8 @@ position: fixed;
 .hpadding
 {
 margin: 2rem 0rem 0rem 0rem;
-padding: 0.5rem;
+padding: 1.5rem;
+padding-top: 50rem;
 /*display: inline-block;*/
 margin-left: 00px;
 position: fixed;
@@ -61,17 +70,28 @@ position: fixed;
 
 .subheader-padding
 {
-float: right;
+  /*padding-top: 200px;
+  margin-left: 400px;
+/*float: right;
 object-position: right;
 text-align: right;
 margin: 5rem 10rem 0rem 5rem;
 font-size: 2rem;
-padding: 0rem;
+/*padding: 0rem;
 text-align: right;
 /*padding: 0.5rem;
 /*display: inline-block;*/
 /*margin-right: 100px;
 /*position: fixed;*/
+width: 100%;
+height: 70vh;
+background-size: contain;
+background-position: right;
+background-repeat: no-repeat;
+max-width: 42rem;
+font-size: 2rem;
+margin: 30px auto;
+
 }
 
 .sidebar{
@@ -105,13 +125,13 @@ text-align: right;
 
 .selected
 {
-color:#A1C0FF;
+color:#f4ff32;
 }
 
 .photo
 {
-width: 100%;
-height: 70vh;
+width: 200%;
+height: 150vh;
 background-size: contain;
 background-position: center;
 background-repeat: no-repeat;
@@ -125,7 +145,7 @@ margin: 30px auto;
     float: left;
     position: fixed;
     text-align: left;
-    margin: 20rem 0rem 0rem 5rem;
+    margin: 20rem 0rem 0rem 30rem;
     width: 15rem;
 
 }
@@ -168,8 +188,25 @@ background: #c9fff2;
   width: 50%;
 }
 .padding{
-  padding-top: 200px;
-  margin-left: 400px;
+  padding-top: 20px;
+  padding: 20px;
+  margin-left: 350px;
+  margin-right: 150px;
+  color: black;
+text-align: right;
+font-family: arial;
+font-size: 4rem;
+}
+
+.cpadding{
+  padding-top: 50px;
+  padding: 20px;
+  margin-left: 350px;
+  margin-right: 150px;
+  color: black;
+text-align: right;
+font-family: arial;
+font-size: 1.5rem;
 }
 
 .gif{
